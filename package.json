@@ -4,6 +4,8 @@
   "description": "------task requirements-----",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +23,7 @@
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "moment": "^2.24.0",
+    "nodemon": "^2.0.2",
     "pug": "^2.0.4"
   }
 }
