@@ -39,7 +39,6 @@ app.get('/', dateMiddleware, (req, res) => {
 //maybe here is a mistake
 app.get('/myroute/:param', (req, res) => {
     const myParam = req.params.param
-
     res.render('myroute', {
         myParam: myParam
     })
