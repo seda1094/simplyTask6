@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+  body
+    h1 Add users
+form(action="/api/users" method="POST")
+    input(type="text" name="username" placeholder="username")
+    br
+    input(type="password" name="password" placeholder="password")
+    hr
+    input(type="radio" value="female" name="gender")
+    label(for="female") female
+    input(type="radio" value="male" name="gender")
+    label(for="male") male
+    input(type="checkbox" name="agree" checked=false)
+    input(type="submit")
+
+
+
